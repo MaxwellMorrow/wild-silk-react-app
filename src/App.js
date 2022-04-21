@@ -1,17 +1,13 @@
+import {Routes,Route} from "react-router-dom"
 import "./App.scss";
-import Header from "./Components/header/header.jsx";
-import Hero from "./Components/hero/hero.jsx";
-import MainSection from "./Components/main-section/main-section";
-import FeaturedCollection from "./Components/featured-collection/featured-collection";
-import Footer from "./Components/footer/footer";
+import HomePage from "./Components/home-page";
 
 function App() {
   return <div className="App">
-  <Header/>
-  <Hero/>
-  <MainSection/>
-  <FeaturedCollection/>
-  <Footer/>
+    <Routes>
+      <Route path="/" element={<HomePage/>}/>
+
+    </Routes>
   </div>;
 }
 
