@@ -1,4 +1,10 @@
-import "./featured-product.styles.scss"
+
+
+
+import "./featured-product.styles.scss";
+
+// need to figure out how to update this to react-router v6
+// import {withRouter} from "react-router-dom";
 
 export default function FeaturedProduct (product){
 const {title,imageUrl,price} = product;
