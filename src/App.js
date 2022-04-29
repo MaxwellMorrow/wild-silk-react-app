@@ -1,4 +1,5 @@
 import {Routes,Route} from "react-router-dom"
+import { BrowserRouter } from "react-router-dom";
 import "./App.scss";
 import HomePage from "./Components/home-page";
 import NotFound from "./Components/not-fund";
@@ -8,6 +9,7 @@ import SingleProduct from "./Components/single-product/single-product";
 
 function App() {
   return <div className="App">
+    
     <Routes>
       <Route path="/" element={<HomePage/>}/>
       <Route path="/shop" element={<Shop/>}/>
