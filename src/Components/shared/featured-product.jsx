@@ -16,7 +16,7 @@ export default function FeaturedProduct(props) {
   return (
     <div className="featured-product">
       <div className="featured-image">
-        <img src={imageUrl} />
+        <img src={imageUrl} alt="product"/>
       </div>
       <div className="name-price" alt="product">
         <h3>{title}</h3>
