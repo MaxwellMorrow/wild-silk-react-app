@@ -1,5 +1,4 @@
 import {Routes,Route} from "react-router-dom"
-import { BrowserRouter } from "react-router-dom";
 import "./App.scss";
 import HomePage from "./Components/home-page";
 import NotFound from "./Components/not-fund";

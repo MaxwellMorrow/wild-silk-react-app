@@ -4,7 +4,7 @@ import Layout from "../shared/layout";
 import "./single-product.styles.scss";
 
 // these hooks should be the key to updating this code to react-router v6 
-import { useLocation, useNavigate, useParams } from "react-router-dom";
+// import { useLocation, useNavigate, useParams } from "react-router-dom";
 import { useEffect } from "react";
 
 
