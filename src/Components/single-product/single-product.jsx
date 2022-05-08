@@ -19,6 +19,10 @@ export default function SingleProduct({ match, history: { push } }) {
   // idk if this is working actually my gut says no 
   const { id } = match.params;
 
+  console.log("Id",id)
+  console.log("match params",match.params)
+
+
   // this allows us to set the product we want to display individually 
   const [product, setProduct] = useState(null);
 

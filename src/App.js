@@ -8,7 +8,7 @@ import SingleProduct from "./Components/single-product/single-product";
 
 function App() {
   return <div className="App">
-    
+
     <Routes>
       <Route path="/" element={<HomePage/>}/>
       <Route path="/shop" element={<Shop/>}/>
